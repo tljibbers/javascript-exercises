@@ -1,4 +1,8 @@
-const getTheTitles = function() {
+const getTheTitles = function(arrayThing) {
+    const titleFilter = arrayThing.filter(function(arrayThing){
+        return arrayThing.title;
+    })
+    return titleFilter;
 
 };
 
